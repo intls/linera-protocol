@@ -471,7 +471,7 @@ impl MatchingEngineContract {
         match nature {
             OrderNature::Bid => {
                 // The order offers to buy token1 at price price_insert
-                // * When the old order was created fill of token1 were commited
+                // * When the old order was created fill of token1 were committed
                 //   by the seller.
                 // * When the new order is created price_insert * fill of token0
                 //   were committed by the buyer.
